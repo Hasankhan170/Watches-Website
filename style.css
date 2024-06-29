@@ -5,8 +5,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
 .head{
     display: flex;
     justify-content: space-between;
@@ -14,9 +12,15 @@
     padding: 20px 10px;
     flex-wrap: wrap;
     gap: 10px;
-    border-bottom: 2px solid black;
     width: 90%;
     margin: 0 auto;
+}
+
+.anchor-tag{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    font-size: 17px;
 }
 
 .inp-icn{
@@ -30,13 +34,14 @@
 
 i{
     font-size: 20px; 
-    padding: 3px;
+    padding: 5px;
 }
+
 .inp-icn input{
     padding: 5px 10px;
     border: 1px solid #ccc;
     border-radius: 50px;
     outline: none;
-    margin-right: 3px;
+    margin-right: 5px;
     width: 150px;
 }
