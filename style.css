@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-bottom: 2px solid black;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.inp-icn{
+    padding: 5px;
+}
+
+.money-img{
+    width: 27px;
+    margin-bottom: 6px;
+}
+
+i{
+    font-size: 20px; 
+    padding: 3px;
+}
+.inp-icn input{
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    outline: none;
+    margin-right: 3px;
+    width: 150px;
+}
