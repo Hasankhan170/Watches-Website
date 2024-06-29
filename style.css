@@ -5,6 +5,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* navbar area started  */
+
+
 .head{
     display: flex;
     justify-content: space-between;
@@ -32,12 +35,12 @@
     margin-bottom: 6px;
 }
 
-i{
+#sea-he{
     font-size: 20px; 
     padding: 5px;
 }
 
-.inp-icn input{
+.in-sea{
     padding: 5px 10px;
     border: 1px solid #ccc;
     border-radius: 50px;
@@ -45,3 +48,42 @@ i{
     margin-right: 5px;
     width: 150px;
 }
+#menu-icn{
+    display: none;
+    font-size: 20px; 
+    padding: 5px;
+}
+
+@media(max-width:1150px){
+    .anchor{
+        display: none;
+    }
+}
+
+@media(max-width:700px){
+    .head{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #sea-he{
+        display: none;
+    }
+    .money-img{
+        display: none;
+    }
+    .in-sea{
+        display: none;
+    }
+     #menu-icn{
+        display: block;
+        font-size: 20px;
+    }
+    #menu-icn:hover{
+        color: rgb(234, 234, 234);
+        border-radius: 50%;
+        padding: 10px;
+    }
+}
+
+/* navbar area ended  */
