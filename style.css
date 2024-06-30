@@ -84,6 +84,12 @@
         border-radius: 50%;
         padding: 10px;
     }
+   .carousel-item{
+    height: 260px;
+   }
+   .carousel-item img{
+    height: 100%;
+   }
 }
 
 /* navbar area ended  */
