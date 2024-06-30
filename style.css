@@ -92,8 +92,27 @@
 
 
 
+/* hero section started  */
 
+.hero-sec{
+    margin-top: 20px;
+}
 
+.main-hero{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.img-sec{
+    text-align: center;
+}
+.img-sec p{
+    margin-top: 10px;
+}
+.img-sec img{
+    width: 80px;
+}
 
 
 
